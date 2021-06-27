@@ -1,0 +1,68 @@
+body {
+    padding-top: 100px;
+    padding-right: 250px;
+    padding-left: 250px;
+    background: #fff5f8 url("../media/result.gif") space;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(119, 56, 56);
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.outerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc {
+    margin: 50px;
+}
+
+.numkey {
+    color: lightpink;
+    background-color: black;
+    border: 3px solid lightpink;
+    width: 100px;
+    height: 45px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.keyrow {
+    margin-top: 5px;
+}
+
+.displaybox {
+    width: 392px;
+    height: 75px;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: pink;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    /* text overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.displaybox span {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    padding: 5px;
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
